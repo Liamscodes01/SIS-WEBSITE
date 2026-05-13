@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <section class="contact-form-header" id="dynamic-header">
+        <nav>
+            <a href="index.html"><img src="./image/logo png.png" height="100" width="100"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./method.html">METHOD</a></li>
+                    <li><a href="./service.html">SERVICES</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+ 
+    </section>
+
+    <section id="contact" class="contact-section">
+
+        <div class="contact-header">
+            <h2>Request Intelligence Brief</h2>
+            <p>All submissions are handled with strict confidentiality.</p>
+        </div>
+
+        <form action="https://formsubmit.co/Verify@sisverification.com.ng" method="POST" class="contact-form">
+
+            <!-- disable captcha -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- redirect after submit (optional) -->
+            <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
+            <input type="text" name="name" placeholder="Full Name" required>
+
+            <input type="text" name="company" placeholder="Company Name">
+
+            <input type="email" name="email" placeholder="Official Email" required>
+
+            <input type="tel" name="phone" placeholder="Phone Number">
+
+            <select name="service">
+                <option>Select Service</option>
+                <option>Employee Verification</option>
+                <option>Guarantor Vetting</option>
+                <option>Field Intelligence</option>
+                <option>Risk Profiling</option>
+            </select>
+
+            <textarea name="message" placeholder="Describe your request..." required></textarea>
+
+            <button type="submit">
+                Submit Request
+            </button>
+
+        </form>
+
+    </section>
+
+</body>
+
+</html>
