@@ -1,3 +1,26 @@
+/* Apply the font to the entire website */
+body {
+    font-family: 'Syne', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Optional: Specifically target headings for that bold look */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700; /* Bold weight */
+}
+
+/* Optional: Use Inter for body text if you prefer a more traditional feel */
+p, span, li {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+
 * {
     margin: 0;
     padding: 0;
