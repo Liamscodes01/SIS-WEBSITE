@@ -19,7 +19,7 @@ h1, h2, h3, strong {
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(./image/index\ background.png);
+    background-image: url(./image/index\ background.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -407,7 +407,7 @@ h1 span {
     justify-content: center;
     text-align: center;
     padding: 100px 20px;
-    background-image: url(./image/index\ background.png);
+    background-image: url(./image/index\ background.webp);
     color: rgb(255, 255, 255);
 }
 
@@ -499,7 +499,7 @@ h1 span {
     justify-content: center;
     text-align: center;
     padding: 100px 20px;
-    background-image: url(./image/index\ background.png);
+    background-image: url(./image/index\ background.webp);
     color: rgb(255, 255, 255);
 }
 
@@ -652,11 +652,11 @@ h2 span {
 
 
 
-/* Abour Us */
+/* About Us */
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: url(./image/aboutpage\ \(1\).png);
+    background-image: url(./image/aboutpage\ \(1\).webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -881,7 +881,7 @@ Method section */
 .method-header {
     height: 50vh;
     width: 100%;
-    background-image: url(./image/method\ logo\ \(1\).png);
+    background-image: url(./image/method\ logo\ \(1\).webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1012,7 +1012,7 @@ Method section */
 .serve-header {
     height: 50vh;
     width: 100%;
-    background-image: url(./image/service\ img.png);
+    background-image: url(./image/service\ img.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1216,7 +1216,7 @@ Method section */
 
 .contact-section {
     padding: 100px 8%;
-    background-image: url(./image/method\ logo\ \(1\).png);
+    background-image: url(./image/method\ logo\ \(1\).webp);
 }
 
 .contact-header {
@@ -1238,7 +1238,7 @@ Method section */
 .contact-form-header {
     height: 50vh;
     width: 100%;
-    background-image: url(./image/contactemp.png);
+    background-image: url(./image/contactemp.webp);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -1344,7 +1344,7 @@ Method section */
 
 .footer{
 
-    background-image: url(./image/index\ background.png);
+    background-image: url(./image/index\ background.webp);
 
     color: #fff;
 
