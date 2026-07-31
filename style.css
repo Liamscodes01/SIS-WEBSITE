@@ -16,7 +16,7 @@ h1, h2, h3, strong {
 }
 
 .header {
-    height: 80vh;   /* Adjust this value */
+    height: 100vh;   /* Adjust this value */
     width: 100%;
     background-image: url(./image/newback.webp);
     background-position: center;
@@ -42,7 +42,8 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 300px;
+    height: auto;
 }
 
 .nav-links {
