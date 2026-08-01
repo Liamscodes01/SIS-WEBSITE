@@ -660,7 +660,7 @@ h2 span {
 
 /* About Us */
 .sub-header {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-image: url(./image/method\ logo\ \(1\).webp);
     background-position: center;
@@ -1018,7 +1018,7 @@ Method section */
 .serve-header {
     height: 50vh;
     width: 100%;
-    background-image: url(./image/service\ img.webp);
+    background-image: url(./image/method\ logo\ \(1\).webp);
     background-position: center;
     background-size: cover;
     text-align: center;
