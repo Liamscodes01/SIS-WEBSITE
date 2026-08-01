@@ -16,7 +16,7 @@ h1, h2, h3, strong {
 .header {
     height: 100vh;   /* Adjust this value */
     width: 100%;
-    background-image: url(./image/newback.webp);
+    background-image: url(./image/newestback.webp);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -413,7 +413,7 @@ h1 span {
     justify-content: center;
     text-align: center;
     padding: 100px 20px;
-    background-image: url(./image/newback.webp);
+    background-image: url(./image/newestback.webp);
     color: rgb(255, 255, 255);
 }
 
@@ -505,7 +505,7 @@ h1 span {
     justify-content: center;
     text-align: center;
     padding: 100px 20px;
-    background-image: url(./image/newback.webp);
+    background-image: url(./image/newestback.webp);
     color: rgb(255, 255, 255);
 }
 
@@ -1350,7 +1350,7 @@ Method section */
 
 .footer{
 
-    background-image: url(./image/newback.webp);
+    background-image: url(./image/newestback.webp);
 
     color: #fff;
 
